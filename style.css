@@ -1,0 +1,31 @@
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+
+  margin: 0.5rem 0;
+}
+
+.chipsContainer{
+  display: flex;
+  gap: 5px;
+  margin: 0.5rem;
+}
+
+.chip{
+  display: inline-block;
+  border: none;
+  background-color: rgb(191, 255, 191);
+  padding: 5px 10px;
+  border-radius: 15px;
+  transition: 0.2s ease-in-out;
+  user-select: none;
+}
+
+.chip:hover{
+  background-color: rgb(166, 220, 166)
+}
+section{
+  border-bottom: 1px solid black;
+}
