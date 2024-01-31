@@ -78,7 +78,7 @@ list.forEach(element => {
 // reduce
 reduceCard.crearChip(list.reduce((acumulado,actual)=>{
   return acumulado+actual;
-}))
+},0))
 // reduce que solo suma números pares
 reduceCard.crearChip(list.reduce((acumulado,actual)=>{
   if(actual % 2 === 0) return acumulado+actual;
